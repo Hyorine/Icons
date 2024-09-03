@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.social-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.social-icons a {
+    position: absolute;
+    font-size: 2rem;
+    color: #ff6600;
+    transition: color 0.3s ease;
+    margin: 0;
+}
+
+/* Kör alakú elhelyezés és kompenzáló forgatás */
+.social-icons a:nth-child(1) {
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+}
+.social-icons a:nth-child(2) {
+    transform: rotate(30deg) translateX(120px) rotate(-30deg);
+}
+.social-icons a:nth-child(3) {
+    transform: rotate(60deg) translateX(120px) rotate(-60deg);
+}
+.social-icons a:nth-child(4) {
+    transform: rotate(90deg) translateX(120px) rotate(-90deg);
+}
+.social-icons a:nth-child(5) {
+    transform: rotate(120deg) translateX(120px) rotate(-120deg);
+}
+.social-icons a:nth-child(6) {
+    transform: rotate(150deg) translateX(120px) rotate(-150deg);
+}
+.social-icons a:nth-child(7) {
+    transform: rotate(180deg) translateX(120px) rotate(-180deg);
+}
+.social-icons a:nth-child(8) {
+    transform: rotate(210deg) translateX(120px) rotate(-210deg);
+}
+.social-icons a:nth-child(9) {
+    transform: rotate(240deg) translateX(120px) rotate(-240deg);
+}
+.social-icons a:nth-child(10) {
+    transform: rotate(270deg) translateX(120px) rotate(-270deg);
+}
+.social-icons a:nth-child(11) {
+    transform: rotate(300deg) translateX(120px) rotate(-300deg);
+}
+.social-icons a:nth-child(12) {
+    transform: rotate(330deg) translateX(120px) rotate(-330deg);
+}
